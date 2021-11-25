@@ -9,6 +9,9 @@ body {
    margin: auto;
 }
 .header {
+   position: fixed;
+   width: 100%;
+   z-index: 9999;
    background-color: #161D2F;
 }
 .title-black {
@@ -40,6 +43,7 @@ body {
    border-radius: 28px;
 }
 .button:hover {
+   transition: background-color 1s;
    cursor: pointer;
    border: 1px solid #FFFFFF;
    background: #161D2F;
@@ -48,6 +52,7 @@ body {
    background: linear-gradient(97.1deg, #3043A9 11.99%, #1F629F 96.6%);
    width: 157px;
    height: 53px;
+   margin-bottom: 10px;
 }
 .button-welcome {
    margin-bottom: 27px;
@@ -83,21 +88,21 @@ body {
    font-size: 24px;
    line-height: 36px;
 }
-
 .naw-meny {
-   list-style-type: none;
    display: flex;
-   margin-right: 40px;
-   color: #FFFFFF;
    font-weight: 300;
    font-size: 14px;
    line-height: 21px;
 }
-.naw-meny:hover {
+.naw-link {
+   text-decoration: none;
+   color: #fff;
+   margin-right: 40px;
+}
+.naw-link:hover {
    cursor: pointer;
    font-weight: 500;
 }
-
 .welcome {
    padding-top: 66px;
    background-color: #161D2F;
@@ -109,6 +114,7 @@ body {
    flex-direction: column;
 }
 .subtitle-white-welcome {
+   margin-top: 51px;
    padding-bottom: 10px;
 }
 .choose-title {
@@ -583,7 +589,8 @@ body {
    color: #222222;
    margin-bottom: 10px;
 }
-.footer-link {
+.footer-link-svg {
+   text-decoration: none;
    margin-right: 10px;
 }
 .products {
@@ -601,18 +608,20 @@ body {
 }
 .product-list {
    list-style-type: none;
-   text-decoration: none;
    font-weight: 300;
    font-size: 16px;
    line-height: 24px;
-   color: #222222;
-   margin-bottom: 15px;
 }
-
+.footer-link {
+   text-decoration: none;
+   color: #222222;
+   margin-bottom: 10px;
+}
 .footer-end {
    margin-top: 55px;
    text-align: center;
    font-size: 14px;
    line-height: 26px;
    color: #222222;;
+   margin-bottom: 20px;
 }
