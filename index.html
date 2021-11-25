@@ -15,17 +15,18 @@
       <link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
+      <div id="top"></div>
       <header class="header">
          <div class="container">
             <div class="naw">
                <div class="naw-title">StayHealthy</div>
-               <ul class="naw-meny">
-                  <li>Home</li>
-                  <li>Program</li>
-                  <li>Nutritions</li>
-                  <li>Pricing</li>
-                  <li>About</li>
-               </ul>
+               <div class="naw-meny">
+                  <a class="naw-link" href="#top">Home</a>
+                  <a class="naw-link" href="#program">Program</a>
+                  <a class="naw-link" href="#nutritions">Nutritions</a>
+                  <a class="naw-link" href="#pricing">Pricing</a>
+                  <a class="naw-link" href="#about">About</a>
+               </div>
                <button class="naw-button button">Join Now</button>
             </div>
          </div>
@@ -49,6 +50,7 @@
          </div>
             <div class="container">
                <div class="programs">
+                  <div id="program"></div>
                   <div class="subtitle-black subtitle-black-workout">PROGRAMS</div>
                   <h3 class="title-black title-black-workout">We Have a programs to help your workouts</h3>
                </div>
@@ -105,7 +107,7 @@
                </div>
             </div>
             <div class="container">
-               <div class="nutritions">
+               <div class="nutritions" id="nutritions">
                   <div class="discipline-containt">
                      <div class="discipline">
                         <svg class="discipline-image-bounty" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -185,7 +187,7 @@
                   </div>
                </div>
             </div>
-            <div class="package">
+            <div class="package" id="pricing">
                <div class="container">
                   <div class="package-title">
                      <h3 class="subtitle-white package-subtitle-white">PRICING</h3>
@@ -258,7 +260,7 @@
                </div>
             </div>
             <div class="benefit">
-               <div class="subtitle-black benefit-subtitle">ABOUT US</div>
+               <div class="subtitle-black benefit-subtitle" id="about">ABOUT US</div>
                <div class="benefit-titles">
                   <svg class="benefit-quotes" width="71" height="60" viewBox="0 0 71 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <g clip-path="url(#clip0_2:204)">
@@ -384,7 +386,7 @@
                   <span class="footer-text">Online Training, and Consultation About Diet and Exercise tailored based on user
                      needs.</span>
                   <div class="footer-links">
-                     <a href="#" class="footer-link">
+                     <a href="#" class="footer-link-svg">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <circle cx="20" cy="20" r="20" fill="#F3F3F3" />
                            <g clip-path="url(#clip0_2:357)">
@@ -400,7 +402,7 @@
                            </defs>
                         </svg>
                      </a>
-                     <a href="#" class="footer-link">
+                     <a href="#" class="footer-link-svg">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <circle cx="20" cy="20" r="20" fill="#F3F3F3" />
                            <path
@@ -408,7 +410,7 @@
                               fill="#3180C8" />
                         </svg>
                      </a>
-                     <a href="" class="footer-link">
+                     <a href="" class="footer-link-svg">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                            <circle cx="20" cy="20" r="20" fill="#F3F3F3" />
                            <path
@@ -421,13 +423,13 @@
                <div class="products">
                   <div class="product-title">Product</div>
                   <ul class="product-list">
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>Gym Equipment</li>
                      </a>
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>Suplement</li>
                      </a>
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>Blog</li>
                      </a>
                   </ul>
@@ -435,13 +437,13 @@
                <div class="products">
                   <div class="product-title">Explore Us</div>
                   <ul class="product-list">
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>FAQ</li>
                      </a>
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>Privacy Policy</li>
                      </a>
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>Term and Conditions</li>
                      </a>
                   </ul>
@@ -449,13 +451,13 @@
                <div class="products">
                   <div class="product-title">Contact</div>
                   <ul class="product-list">
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>hi@stayhealthy.com</li>
                      </a>
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>021-123-636</li>
                      </a>
-                     <a href="#">
+                     <a class="footer-link" href="#">
                         <li>stayhealthy.cou</li>
                      </a>
                   </ul>
@@ -466,5 +468,7 @@
             </div>
          </div>
       </footer>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+      <script type="text/javascript" src="./js/script.js"></script>
 	</body>
 </html>
