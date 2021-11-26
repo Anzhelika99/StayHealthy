@@ -82,7 +82,7 @@ body {
    padding-top: 12px;
    justify-content: space-between;
 }
-.naw-title {
+.logo {
    color: #FFFFFF;
    font-weight: 800;
    font-size: 24px;
@@ -100,6 +100,7 @@ body {
    margin-right: 40px;
 }
 .naw-link:hover {
+   transition: 0.5s;
    cursor: pointer;
    font-weight: 500;
 }
@@ -624,4 +625,72 @@ body {
    line-height: 26px;
    color: #222222;;
    margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+   .subtitle-black-workout {
+      margin-top: 65px;
+   }
+   .workout {
+      margin-bottom: 100px;
+   }
+   .workout-containt {
+      max-width: 280px;
+      max-height: 390px;
+   }
+   .workout-image {
+      height: 150px;
+   }
+   .workout-text {
+      margin-bottom: 10px;
+   }
+   .workout-link {
+      margin-top: auto;
+   }
+   .nutrition-containt {
+      max-width: 365px;
+      max-height: 380px;
+   }
+   .package-subtitle-white {
+      padding-top: 50px;
+   }
+   .package-containt {
+      width: 300px;
+   }
+   .package-image {
+      padding-bottom: 35px;
+   }
+   .benefit-subtitle {
+      margin-top: 50px;
+   }
+   .contact-image-two {
+      display: none;
+   }
+   .contact-image-fore {
+      display: none;
+   }
+   .footer-aplication {
+      max-width: 330px;
+   }
+   .product-title {
+      width: 110px;
+      margin-right: auto;
+   }
+   .footer-text {
+      display: block;
+      margin-bottom: 10px;
+   }
+   .footer-end {
+      margin-top: 27px;
+   }
+}
+@media (max-width: 999px) {
+   .container {
+		max-width: 790px;
+	} 
+   .naw-link {
+      margin-right: 20px;
+   }
 }
